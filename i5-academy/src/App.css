@@ -1,0 +1,10 @@
+.card-outer-conatiner{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    flex-direction: column;
+    text-decoration: none;
+}

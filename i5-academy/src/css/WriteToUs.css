@@ -1,0 +1,78 @@
+form {
+    display: block;
+}
+
+.write-to-us-container{
+    width: 100%;
+    height: 300px;
+    background-color: var(--color-accent);
+    min-height: 500px;
+    max-height: 1000px;
+    border-radius: 10px;
+    padding: 5px;
+    /* overflow: scroll; */
+}
+
+.form-legend{
+    /* position: absolute; */
+    font-size: 20px;
+    background-color: transparent;
+    color: #fff;
+    margin: 6px;
+
+}
+
+.ip-container{
+    width: 90%;
+    background-color: transparent;
+    margin: 30px auto;
+}
+
+.text-box-ip{
+    display: block;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    border-style: none;
+    color: #000;
+    font-size: 20px;
+    margin: 15px auto;
+    font-family: var(--font-josefin);
+}
+
+.text-box-ip::placeholder{
+    color: #000;
+    font-size: 20px;
+}
+
+.text-box-ip:focus{
+    outline: 2px solid #fff;
+}
+
+.text-box-ip:nth-child(4){
+    height: 150px;
+    resize: none;
+}
+
+.submit-feed{
+    font-family: var(--font-josefin);
+    height: 55px;
+    border-radius: 5px;
+    color: #fff;
+    background: var(--color-secondary, #69A4EA);
+    width: 100%;
+    font-size: 26px;
+    font-weight: 400;
+    border-radius: 5px;
+    border-style: none;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.submit-feed:active, .submit-feed:hover{
+    background-color: #fff;
+    color: var(--color-secondary, #69A4EA);
+    outline: 5px solid #69A4EA;
+}

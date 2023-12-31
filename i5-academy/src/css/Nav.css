@@ -1,0 +1,55 @@
+.nav-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    border-radius: 0px 0px 8px 8px;
+    border-bottom: 0.1px solid #000;
+    background: var(--color-bg, #F2EBE4);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    font-family: var(--font-kaushan);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 100;
+}
+
+.nav-ham-container{
+    width: 35px;
+    height: 30px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.ham-line{
+    width: 100%;
+    border: 1px solid #000;
+    position: absolute;
+}
+
+.ham-line:nth-child(1){
+    top: 10px;
+}
+
+.ham-line:nth-child(2){
+    top: 20px;
+}
+
+.nav-ham-container.active .ham-line:nth-child(1){
+    transform: rotate(45deg);
+}
+
+.nav-ham-container.active .ham-line:nth-child(2){
+    transform: rotate(-45deg);
+}
+
+.nav-ham-container.active{
+    background-color: #fff;
+    border-radius: 5px;
+}

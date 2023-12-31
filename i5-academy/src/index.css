@@ -1,0 +1,25 @@
+:root{
+  --font-josefin: 'Josefin Sans', sans-serif;
+  --font-kaushan: 'Kaushan Script', cursive;
+  --color-text: #000;
+  --color-bg: #F2EBE4;
+  --color-primary: #DBDCB7;
+  --color-secondary: #69A4EA;
+  --color-accent: #504FA1;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--color-bg);
+  transition: all 0.3s;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
