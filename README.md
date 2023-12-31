@@ -1,7 +1,7 @@
 ### To run frontend
-'''npm run dev'''
+```npm run dev```
 
 ### To run backend
-'''node app.js'''
+```node app.js```
 
 ### Database: MySQL
